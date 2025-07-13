@@ -22,7 +22,8 @@ const person= {
       lastname:"test",
       age:20,
 };
-console.log(`${person.firstname} ${person.lastname}`);
+console.log(person.firstname, person.lastname);
+
 //  დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
 for (let key in person) {
   console.log(person[key]);
